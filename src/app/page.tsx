@@ -1,6 +1,9 @@
+import { Chat } from "@/widgets/Chat";
+
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div>
+      <Chat />
     </div>
   );
 }
